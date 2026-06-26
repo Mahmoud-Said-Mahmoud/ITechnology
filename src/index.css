@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@import "@heroui/styles"; 
+
+@import "aos/dist/aos.css";
+@font-face {
+    font-family:Manrope ;
+    src: url('./assets/Manrope-VariableFont_wght.ttf');
+}
+html{
+    font-family: Manrope, sans-serif;
+    scroll-behavior: smooth;
+     scrollbar-color: #2563eb #081b3a;
+}
+
+@keyframes up-down {
+0%, 100% {
+    transform: translateY(0);
+}
+
+50% {
+    transform: translateY(-10px);
+}
+}
