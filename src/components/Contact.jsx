@@ -39,8 +39,8 @@ const schema = zod.object({
     .regex(/^[+]?[(]?[0-9]{1,4}[)]?[-\s./0-9]*$/, "Invalid phone number"),
   Message: zod
     .string()
-    .min(1, "Message is required")
-    .regex(/^[A-Za-z\u0600-\u06FF]+(?:\s+[A-Za-z\u0600-\u06FF]+)*$/, "Invalid Your Message"),
+    .min(10, "Message is too short")
+    ,
   Service: zod
     .string()
     .min(1, "Services Selected is required")
@@ -58,27 +58,29 @@ export default function Contact() {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = async  (data) => {
-      try {
-        setisloading(true)
+const onSubmit = async (data) => {
+  try {
+    setisloading(true);
+
     const response = await fetch("http://localhost:5000/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-      
     });
 
-    const result = await response.json();
-setisloading(false)
-    console.log(result);
+    if (!response.ok) {
+      throw new Error("Failed to send");
+    }
+
+    setSubmit(true);
   } catch (error) {
     console.error(error);
+  } finally {
+    setisloading(false);
   }
-    console.log(data);
-    setSubmit(true);
-  };
+};
   return (
     <section id="contact" className="py-20 bg-[#081b3a] relative">
       <div className="bg-[linear-gradient(90deg,_transparent,_rgba(6,182,212,0.3),_rgba(37,99,235,0.2),_transparent)] w-full h-px absolute top-0"></div>
@@ -134,7 +136,6 @@ setisloading(false)
             <MdOutlineEmail className="text-[#2db366] bg-[#2563eb1a] border-[#2563eb33] rounded-xl text-5xl p-2 mx-auto  items-center justify-center flex mb-4" />
             <p className="text-white">Email Us</p>
             <p className="text-[#2db366] leading-6 mt-2 text-[15px]">
-              {" "}
               <a href="mailto:wecare@i-techegypt.com?subject=Inquiry&body=Hello,%20I%20want%20to%20know%20more%20about%20your%20services.">
                 wecare@i-techegypt.com
               </a>
@@ -206,7 +207,7 @@ setisloading(false)
                   </Label>
                   <Input
                     id="input-type-text"
-                    placeholder="+12346"
+                    placeholder="+20 100 288 4418"
                     type="text"
                     {...register("PhoneNumber")}
                     className="focus:bg-[#ffffff0d] focus:border-[#ffffff1a] bg-[#ffffff0d] border-[#ffffff1a] text-[#ffffff8c] focus:border  border "
