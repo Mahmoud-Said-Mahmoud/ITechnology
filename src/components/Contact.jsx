@@ -159,7 +159,7 @@ const onSubmit = async (data) => {
             <p className='text-[#ffffff8c]'>Fill out the form below and our team will be in touch shortly.</p>
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="flex mt-4 gap-2 flex-wrap">
-                <div className="flex flex-col gap-1 w-[49%]">
+                <div className="flex flex-col gap-1 w-full xl:w-[49%]">
                   <Label htmlFor="input-type-text" className="text-[#ffffff8c]">
                     Full Name
                   </Label>
@@ -172,7 +172,7 @@ const onSubmit = async (data) => {
                   />
                   <p className="text-red-700">{errors.firstName?.message}</p>
                 </div>
-                <div className="flex flex-col gap-1 w-[49%]">
+                <div className="flex flex-col gap-1 w-full xl:w-[49%]">
                   <Label
                     htmlFor="input-type-email"
                     className="text-[#ffffff8c]"
@@ -188,7 +188,7 @@ const onSubmit = async (data) => {
                   />
                   <p className="text-red-700">{errors.Email?.message}</p>
                 </div>
-                <div className="flex flex-col gap-1 w-[49%]">
+                <div className="flex flex-col gap-1 w-full xl:w-[49%]">
                   <Label htmlFor="input-type-text" className="text-[#ffffff8c]">
                     Company
                   </Label>
@@ -201,7 +201,7 @@ const onSubmit = async (data) => {
                   />
                   <p className="text-red-700">{errors.Company?.message}</p>
                 </div>
-                <div className="flex flex-col gap-1 w-[49%]">
+                <div className="flex flex-col gap-1 w-full xl:w-[49%]">
                   <Label htmlFor="input-type-text" className="text-[#ffffff8c]">
                     Phone Number
                   </Label>

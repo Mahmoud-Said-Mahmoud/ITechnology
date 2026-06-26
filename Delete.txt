@@ -1,0 +1,7 @@
+Delete 
+DELETE FROM "contacts";
+DELETE FROM sqlite_sequence WHERE name = 'contacts';
+
+by id 
+DELETE FROM "contacts"
+WHERE id = 1;
