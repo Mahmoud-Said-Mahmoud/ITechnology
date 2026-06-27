@@ -60,7 +60,7 @@ export default function Navbar(){
 {open &&
 <div className='ml-3 mr-3 pb-2'>
   <ul className='xl:hidden  gap-5 w-12/12 text-[#C0C5CE] '>
-        {links.map((l,i)=><li key={i.id} className='cursor-pointer hover:text-white mb-3 mt-3 pt-2 pb-2 border-b-[0.3px] border-[#172847]'>{l.name}</li>)}
+        {links.map((l,i)=><li key={i.id} className='cursor-pointer hover:text-white mb-3 mt-3 pt-2 pb-2 border-b-[0.3px] border-[#172847]'> <a href={`#${l.id}`}>{l.name}</a></li>)}
       </ul>
         <Button className=" xl:hidden bg-[#2055DE]
         rounded-[10px] w-12/12
