@@ -98,12 +98,6 @@ export default function Services(){
                 <p className='text-[#C0C5CE] text-[12px]'>Projects Delivered</p>
               </div>
               <div className='border-[#1b2f52] border p-6 rounded-[15px] bg-[#0a2047] w-[45%] mt-5 xl:w-1/3'>
-                
-
-                <p className='font-bold text-[30px] text-white'>100+</p>
-                <p className='text-[#C0C5CE] text-[12px]'>Projects Delivered</p>
-              </div>
-              <div className='border-[#1b2f52] border p-6 rounded-[15px] bg-[#0a2047] w-[45%] mt-5 xl:w-1/3'>
                 <p className='font-bold  text-[30px] text-white'>50+</p>
 
                 <p className='text-[#C0C5CE] text-[12px]'>Active Clients</p>
@@ -113,7 +107,6 @@ export default function Services(){
 
                 <p className='font-bold  text-[30px] text-white'>10+</p>
 
-         
 
                 <p className='text-[#C0C5CE] text-[12px]'>Years in Market</p>
             </div>

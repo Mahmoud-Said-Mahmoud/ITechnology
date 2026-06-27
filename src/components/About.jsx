@@ -17,9 +17,6 @@ export default function About(){
                   <div className='bg-[#2563eb1a] border-[#2563eb33] rounded-[15px] border w-full p-4'>
 
                 <p className='font-bold text-[30px] text-white'>200+</p>
-
-                <p className='font-bold text-[30px] text-white'>100+</p>
-
                 <p className='text-[#C0C5CE] text-[12px]'>Projects </p>
                   </div>
 
@@ -27,15 +24,11 @@ export default function About(){
 
                 <p className='font-bold text-[30px] text-white'>100+</p>
 
-                <p className='font-bold text-[30px] text-white'>50+</p>
-
                 <p className='text-[#C0C5CE] text-[12px]'>Clients</p>
                   </div>
 
                   <div className='bg-[#2563eb1a] border-[#2563eb33] rounded-[15px] border w-full p-4'>
                 <p className='font-bold text-[30px] text-white'>10+</p>
-
-                <p className='font-bold text-[30px] text-white'>5+</p>
 
                 <p className='text-[#C0C5CE] text-[12px]'> Years</p>
                   </div>
@@ -46,7 +39,7 @@ export default function About(){
 
                   <span className='text-[#f3fcff] text-[14px]'>Operating since 2016</span>
 
-                  <span className='text-[#f3fcff] text-[14px]'>Operating since 2019</span>
+              
 
                 </div>
                 </div>
