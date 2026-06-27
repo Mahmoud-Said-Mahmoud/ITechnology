@@ -4,7 +4,7 @@ import { Button, Chip } from '@heroui/react';
 import { CiServer } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { IoCodeSlash } from "react-icons/io5";
-import { FaArrowRightLong } from "react-icons/fa6";
+
 import { FaUsers } from "react-icons/fa";
 import { MdOutlineShield } from "react-icons/md";
 import { GiLifeSupport } from "react-icons/gi";
@@ -42,7 +42,7 @@ export default function Services(){
                 <li>Custom Workflows</li>
                 <li>Cloud & On-premise</li>
               </ul>
-              <a className='text-[#395cc1] text-[14px]'>Learn More <FaArrowRightLong className='inline'/> </a>
+              
           </div>
 
           <div className='bg-[#0a2047] border-[#1b2f52] rounded-[15px] hover:shadow-[0_0_40px_#29a1bb] transition-all duration-300 border cursor-pointer p-6 group'>
@@ -58,7 +58,7 @@ export default function Services(){
                 <li>Inventory Sync</li>
                 <li>SEO Optimized</li>
               </ul>
-              <a className='text-[#29a1bb] text-[14px] '>Learn More  <FaArrowRightLong className='inline'/> </a>
+              
               <div className='relative group/store'>
               <a className='text-[#29a1bb] text-[14px] mt-2 hover:translate-x-2 transition-all duration-300' href="https://www.i-techegypt.com/?srsltid=AfmBOorbJbtUIFGEBSodb15mYsra2uoP4rUxfQbdZgV7iGcQXef37c3B" target='_blank'> <IoCartOutline className='inline text-xl -mt-1'/> Visit Our Online Store <FaExternalLinkAlt className='inline'/> </a>
               <div className='invisible opacity-0 group-hover/store:visible absolute bottom-1 mb-5 left-0 transition-all duration-300 group-hover/store:opacity-100 '>
@@ -80,7 +80,7 @@ export default function Services(){
                 <li>Performance Optimized</li>
                 <li>CMS Integration</li>
               </ul>
-              <a className='text-[#7760ce] text-[14px]'>Learn More <FaArrowRightLong className='inline'/> </a>
+              
           </div>
         </div>
 
