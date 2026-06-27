@@ -15,40 +15,39 @@ export default function About(){
                 <div className=' grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-5 text-center mt-5 '>
 
                   <div className='bg-[#2563eb1a] border-[#2563eb33] rounded-[15px] border w-full p-4'>
-<<<<<<< HEAD
+
                 <p className='font-bold text-[30px] text-white'>200+</p>
-=======
+
                 <p className='font-bold text-[30px] text-white'>100+</p>
->>>>>>> 1a4fcfaa634b19c2dc1cc0aa8e79c95361105c76
+
                 <p className='text-[#C0C5CE] text-[12px]'>Projects </p>
                   </div>
 
                   <div className='bg-[#2563eb1a] border-[#2563eb33] rounded-[15px] border w-full p-4'>
-<<<<<<< HEAD
+
                 <p className='font-bold text-[30px] text-white'>100+</p>
-=======
+
                 <p className='font-bold text-[30px] text-white'>50+</p>
->>>>>>> 1a4fcfaa634b19c2dc1cc0aa8e79c95361105c76
+
                 <p className='text-[#C0C5CE] text-[12px]'>Clients</p>
                   </div>
 
                   <div className='bg-[#2563eb1a] border-[#2563eb33] rounded-[15px] border w-full p-4'>
-<<<<<<< HEAD
                 <p className='font-bold text-[30px] text-white'>10+</p>
-=======
+
                 <p className='font-bold text-[30px] text-white'>5+</p>
->>>>>>> 1a4fcfaa634b19c2dc1cc0aa8e79c95361105c76
+
                 <p className='text-[#C0C5CE] text-[12px]'> Years</p>
                   </div>
 
                 </div> 
                 <div className='bg-[linear-gradient(90deg,#0A3155_50%,#0E5378_120%)] border-[#022646] rounded-[10px] border absolute -bottom-6 -right-3 md:-right-5 p-3 animate-[up-down_3s_ease-in-out_infinite]'>
                   <TbPointFilled  className='text-green-500 inline ' />
-<<<<<<< HEAD
+
                   <span className='text-[#f3fcff] text-[14px]'>Operating since 2016</span>
-=======
+
                   <span className='text-[#f3fcff] text-[14px]'>Operating since 2019</span>
->>>>>>> 1a4fcfaa634b19c2dc1cc0aa8e79c95361105c76
+
                 </div>
                 </div>
 

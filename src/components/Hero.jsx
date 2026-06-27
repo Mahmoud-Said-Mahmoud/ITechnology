@@ -4,7 +4,7 @@ import AOS from 'aos';
 import dashboard from '../assets/Dashboard.png'
 import first from '../assets/first.png'
 import secound from '../assets/secound.png'
-import { Button, Chip } from '@heroui/react';
+import { Button} from '@heroui/react';
 export default function Hero(){
   return (
     <section className="bg-[#0D203F] text-white pt-12 pb-16 bg-[linear-gradient(rgba(255,255,255,.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.04)_1px,transparent_1px),linear-gradient(135deg,#081B3A_0%,#0D2554_50%,#081B3A_100%)]
