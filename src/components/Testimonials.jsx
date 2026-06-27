@@ -144,7 +144,7 @@ export default function Testimonials(){
         </div>
         <div className='text-center mt-10'>
           <p className='text-[#ffffff8c]'>Join 50+ businesses that have transformed with I-Technology</p>
-          <Button className='p-7 rounded-2xl bg-[linear-gradient(135deg,#2563EB,#1D4ED8)] shadow-[0_0_20px_rgba(32,85,222,0.5)] xl:w-1/6 mt-5' ><a href="#contact">Start Your Transformation</a> </Button>
+         <a href="#contact"> <Button className='p-7 rounded-2xl bg-[linear-gradient(135deg,#2563EB,#1D4ED8)] shadow-[0_0_20px_rgba(32,85,222,0.5)] xl:w-1/6 mt-5' >Start Your Transformation </Button></a>
         </div>
       </div>
     </section>

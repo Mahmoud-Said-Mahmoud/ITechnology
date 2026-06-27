@@ -179,7 +179,7 @@ export default function Services(){
           <p className='text-[#8590A3] font-bold'>Authorized by leading ERP vendors to implement, customize, and support their platforms</p>
           </div>
           <div className='pt-2'>
-            <Button className='p-7 rounded-2xl'> <a href="#contact">Find The Right ERP</a></Button>
+          <a href="#contact">  <Button className='p-7 rounded-2xl'> Find The Right ERP</Button></a>
           </div>
         </div>
 

@@ -39,13 +39,14 @@ export default function Navbar(){
   ))}
       </ul>
       <div className=' hidden xl:flex gap-4 w-4/12 justify-end'>
-      <Button  className="rounded-[10px] bg-transparent text-white border hover:bg-[rgba(255,255,255,0.08)] p-5 transition-all duration-300"> <a href="#contact">Countact Us</a></Button>
+      <a href="#contact"><Button  className="rounded-[10px] bg-transparent text-white border hover:bg-[rgba(255,255,255,0.08)] p-5 transition-all duration-300"> Countact Us</Button></a>
+        <a href="#contact">
         <Button className=" bg-[#2055DE]
           rounded-[10px]
           p-5
           shadow-[0_0_20px_rgba(32,85,222,0.5)]
           hover:shadow-[0_0_40px_rgba(32,85,222,0.8)]
-          transition-all duration-300"> <a href="#contact">Book a Demo</a> </Button>
+          transition-all duration-300"> Book a Demo </Button></a>
       </div>
 
         <div className='cursor-pointer' onClick={()=>setOpen(!open)}>
@@ -62,12 +63,13 @@ export default function Navbar(){
   <ul className='xl:hidden  gap-5 w-12/12 text-[#C0C5CE] '>
         {links.map((l,i)=><li key={i.id} className='cursor-pointer hover:text-white mb-3 mt-3 pt-2 pb-2 border-b-[0.3px] border-[#172847]'> <a href={`#${l.id}`}>{l.name}</a></li>)}
       </ul>
+      <a href="#contact">
         <Button className=" xl:hidden bg-[#2055DE]
         rounded-[10px] w-12/12
           p-5
         shadow-[0_0_20px_rgba(32,85,222,0.5)]
           hover:shadow-[0_0_40px_rgba(32,85,222,0.8)]
-          transition-all duration-300"> <a href="#contact">Book a Demo</a></Button>
+          transition-all duration-300"> Book a Demo</Button></a>
 </div>       
 }
     </header>

@@ -61,7 +61,7 @@ export default function About(){
                 </ul>
 
                     <div className='mt-10'>
-                            <Button className='p-7 rounded-2xl bg-[linear-gradient(135deg,#2563EB,#1D4ED8)] shadow-[0_0_20px_rgba(32,85,222,1.2)]' ><a href="#contact">Get in Touch</a> </Button>
+                           <a href="#contact"> <Button className='p-7 rounded-2xl bg-[linear-gradient(135deg,#2563EB,#1D4ED8)] shadow-[0_0_20px_rgba(32,85,222,1.2)]' >Get in Touch </Button></a>
                     </div>
                 </div>
 

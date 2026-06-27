@@ -20,13 +20,14 @@ export default function Hero(){
             </div>  
             <p className='mb-10 text-[#989cb6] w-3/4 text-[18px]'>We help businesses grow through ERP solutions, E-commerce platforms, and professional web development tailored to your enterprise needs.</p>
         <div className='flex gap-4 border-b-2 border-[#ffffff14] md:mb-5 md:pb-5 mb-3 pb-3'>
+                <a href="#contact">
                 <Button className=" bg-[#2055DE]
                     rounded-[10px]
                     p-5
                     shadow-[0_0_20px_rgba(32,85,222,0.5)]
                     hover:shadow-[0_0_40px_rgba(32,85,222,0.8)]
-                    transition-all duration-300"> <a href="#contact">Book a Demo</a> </Button>
-                <Button  className="rounded-[10px] bg-transparent text-white border hover:bg-[rgba(255,255,255,0.08)] p-5 transition-all duration-300"> <a href="#contact">Countact Us</a></Button>
+                    transition-all duration-300"> Book a Demo </Button></a>
+               <a href="#contact"> <Button  className="rounded-[10px] bg-transparent text-white border hover:bg-[rgba(255,255,255,0.08)] p-5 transition-all duration-300"> Countact Us</Button></a>
         </div>
 
         <div className='flex gap-5 mt-3 mb-3'>
