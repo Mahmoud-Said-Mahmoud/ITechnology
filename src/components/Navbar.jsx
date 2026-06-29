@@ -25,7 +25,7 @@ export default function Navbar(){
     <header className={` bg-[#0D203F] text-white ${!scorll ? `bg-[linear-gradient(rgba(255,255,255,.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.04)_1px,transparent_1px),linear-gradient(135deg,#081B3A_0%,#0D2554_50%,#081B3A_100%)]
     bg-[size:80px_80px,80px_80px,100%_100%]`:'' } ${scorll ? 'fixed left-0 right-0 top-0 z-50 ':'' }` }>
     <div className=' flex  items-center  container mx-auto p-4 justify-between '>
-        <div className='w-4/12'><img className='w-12/12 md:w-6/12' src={logo} alt="" /></div>
+        <div className='w-4/12'><a href="#"><img className='w-12/12 md:w-6/12' src={logo} alt="" /></a></div>
       <ul className='xl:flex xl:flex-row justify-center gap-5 w-6/12 text-[#C0C5CE]  hidden'>
           {links.map((link) => (
     <li key={link.id}>

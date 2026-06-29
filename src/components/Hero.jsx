@@ -9,7 +9,7 @@ export default function Hero(){
   return (
     <section className="bg-[#0D203F] text-white pt-12 pb-16 bg-[linear-gradient(rgba(255,255,255,.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.04)_1px,transparent_1px),linear-gradient(135deg,#081B3A_0%,#0D2554_50%,#081B3A_100%)]
     bg-[size:80px_80px,80px_80px,100%_100%] ">
-    <div className='flex-col xl:flex-row xl:flex xl:justify-between container mx-auto gap-7  px-4'>
+    <div className='flex-col xl:flex-row xl:flex xl:justify-between lg:mr-20 container mx-auto gap-7  px-4'>
     <div className='flex-1'>
             <div className=' bg-[rgba(37, 99, 235, 0.12)] text-[15px] border lg:w-4/12 w-[55%] p-2 rounded-xl text-center border-[#2564eb8d]'>
             Enterprise Technology Solutions
@@ -48,7 +48,7 @@ export default function Hero(){
     <div className='flex-1 relative'>
     <img data-aos="zoom-in" src={dashboard} alt="dashboard Image" className='rounded-2xl w-12/12'/>
     <img data-aos="fade-right"  data-aos-delay="500" src={first} alt="dashboard Image" className='rounded-2xl hidden lg:block lg:w-35 absolute top-20 -left-15 '/>
-    <img data-aos="fade-up-left"   data-aos-delay="500" src={secound} alt="dashboard Image" className='rounded-2xl hidden lg:block  lg:w-35 absolute  -right-15 -bottom-10'/>
+    <img data-aos="fade-up"   data-aos-delay="500" src={secound} alt="dashboard Image" className='rounded-2xl hidden lg:block  lg:w-35 absolute  -right-15 -bottom-10'/>
     </div>
     </div>
     </section>

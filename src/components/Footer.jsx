@@ -17,10 +17,10 @@ export default function Footer(){
           <img className='w-8/12' src={logo} alt="" />
           <p>Empowering Egyptian and MENA businesses through enterprise ERP solutions, e-commerce platforms, and professional web development.</p>
           <div className='flex gap-2'>
-            <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' ><a href="https://www.facebook.com/ITechnology2016/" target='_blank'><FaFacebookF /></a>  </Button> 
-            <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' ><a href="https://wa.me/201002884418"target="_blank"> <FaWhatsapp /> </a>  </Button> 
-            <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' > <a href="https://www.linkedin.com/company/itechnologycompany/posts/?feedView=all"><LuLinkedin /></a>   </Button> 
-            <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' ><a href="https://www.instagram.com/itechnology2016/"><FaInstagram /></a>     </Button> 
+           <a href="https://www.facebook.com/ITechnology2016/" target='_blank'> <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' ><FaFacebookF /> </Button> </a> 
+         <a href="https://wa.me/201002884418"target="_blank">   <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' > <FaWhatsapp />   </Button> </a>
+           <a href="https://www.linkedin.com/company/itechnologycompany/posts/?feedView=all"> <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' > <LuLinkedin />   </Button> </a>
+          <a href="https://www.instagram.com/itechnology2016/">  <Button className='rounded-[10px] hover:border-[rgba(37,99,235,0.4)] hover:bg-[rgba(37,99,235,0.2)] border bg-[rgba(255,255,255,0.08)] p-3  transition-all duration-300' ><FaInstagram />     </Button> </a>
           </div>
         </div>
         <div className='flex-1 '>
